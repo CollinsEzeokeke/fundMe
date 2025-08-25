@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,10 +13,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
 				"name": "getConversionRate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -74,7 +86,7 @@
 		"compilationTarget": {
 			"contracts/fundMe.sol": "FundMe"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -95,11 +107,11 @@
 			]
 		},
 		"contracts/fundMe.sol": {
-			"keccak256": "0x5acd71cc1caef93d781f143e34f1dd70b260c223247a5a1393cde26da1134272",
+			"keccak256": "0x6c3f8ab838bd1a3e72c315aea8181d5136edba5d2cb07b9e2dc82deb1e4948fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da1bcf47606e24012a338e03c4f362c7688bdcbdb7541a8c75d40660ce51c630",
-				"dweb:/ipfs/Qme34e2qfPsXBLbNnHrGxNAxQPzRY4zEDgxgX2tNCnFWuE"
+				"bzz-raw://3ad79f7c6a84e55fadb3fdeca7fffd9e38a0452451f1cb6c45676aadf434827d",
+				"dweb:/ipfs/QmYTUqUFEeFKYYdXJqE9H5oJ2PirDGKgreZKRXB3SoAp9b"
 			]
 		}
 	},
