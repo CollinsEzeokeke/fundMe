@@ -22,8 +22,14 @@
 			{
 				"inputs": [],
 				"name": "getPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -89,11 +95,11 @@
 			]
 		},
 		"contracts/fundMe.sol": {
-			"keccak256": "0x9408bc589087a373883a67208652a93dba234b35d703521865c25f0241e7c8d3",
+			"keccak256": "0x5acd71cc1caef93d781f143e34f1dd70b260c223247a5a1393cde26da1134272",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6a6244c1b71d56f30e90af75d54927e56d1cc6e057f3b50ecdb36cb9e64e92fa",
-				"dweb:/ipfs/QmSuS1r8NAbmCGpgQVhoi8S2txg2AoU417htNTcfpRmU49"
+				"bzz-raw://da1bcf47606e24012a338e03c4f362c7688bdcbdb7541a8c75d40660ce51c630",
+				"dweb:/ipfs/Qme34e2qfPsXBLbNnHrGxNAxQPzRY4zEDgxgX2tNCnFWuE"
 			]
 		}
 	},
